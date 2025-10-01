@@ -48,8 +48,8 @@
     text-decoration: none;
 }
 
-.phone-btn i {
-    font-size: 1.5rem;
+.phone-btn i, .whatsapp-btn i {
+    font-size: 2.2rem;
 }
 
 .phone-number-display {

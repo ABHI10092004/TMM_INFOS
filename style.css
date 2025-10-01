@@ -28,7 +28,9 @@ body { font-family: 'Segoe UI', Arial, sans-serif; background: #f8f9fa; color: #
   pointer-events: none;
   transition: opacity 0.25s cubic-bezier(.4,1.4,.6,1), transform 0.25s cubic-bezier(.4,1.4,.6,1);
 }
-
+.floating-quote-btn{
+  display: none !important;
+}
 .dropdown:hover .dropdown-content,
 .dropdown:focus-within .dropdown-content {
   display: block;
