@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wet Mix - TMM INFRA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="product-styles.css">
+    <link rel="stylesheet" href="floating-buttons.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.svg" alt="TMM Cement Logo">
+                <span>TMM INFRA</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#products" class="nav-link active">Products <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="psand.html">P Sand</a></li>
+                        <li><a href="csand.html">C Sand</a></li>
+                        <li><a href="blocks.html">Blocks</a></li>
+                        <li><a href="jelly.html">Jelly Aggregates</a></li>
+                        <li><a href="wetmix.html" class="active">Wet Mix</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#manufacturing" class="nav-link">How We Make It <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="manufacturing-sand.html">Manufacturing Sand</a></li>
+                        <li><a href="manufacturing-blocks.html">Manufacturing Blocks</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#why-choose" class="nav-link">Why Choose Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#calculator" class="nav-link">Building Calculator</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Product Hero Section -->
+    <section class="product-hero">
+        <div class="product-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')"></div>
+        <div class="product-hero-content">
+            <div class="container">
+                <div class="breadcrumb" data-aos="fade-up">
+                    <a href="index.html">Home</a> / <a href="#products">Products</a> / <span>Wet Mix</span>
+                </div>
+                <h1 class="product-title" data-aos="fade-up" data-aos-delay="100">Wet Mix</h1>
+                <p class="product-subtitle" data-aos="fade-up" data-aos-delay="200">Premium quality wet mix for road construction and infrastructure projects</p>
+                <div class="product-hero-buttons" data-aos="fade-up" data-aos-delay="300">
+                    <button class="cta-button" onclick="scrollToSection('specifications')">View Specifications</button>
+                    <button class="cta-button-outline" onclick="scrollToSection('contact-product')">Get Quote</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Overview -->
+    <section class="product-overview">
+        <div class="container">
+            <div class="overview-grid">
+                <div class="overview-content" data-aos="fade-right">
+                    <h2>About Wet Mix</h2>
+                    <p>Our Wet Mix is a high-quality mixture of crushed aggregates combined with optimal moisture content, specifically designed for road base construction and infrastructure projects. It provides excellent compaction, stability, and load-bearing capacity for durable road surfaces.</p>
+                    <div class="key-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Optimal moisture content for maximum compaction</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Superior load-bearing capacity</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Excellent stability and durability</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Consistent quality and grading</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview-image" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Wet Mix">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <i class="fas fa-play-circle"></i>
+                            <span>View Process</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specifications -->
+    <section id="specifications" class="specifications-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">Technical Specifications</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Detailed specifications for our premium Wet Mix</p>
+            </div>
+            <div class="specs-grid">
+                <div class="spec-card" data-aos="zoom-in">
+                    <div class="spec-icon">
+                        <i class="fas fa-ruler"></i>
+                    </div>
+                    <h3>Aggregate Size</h3>
+                    <p>0-40mm graded</p>
+                </div>
+                <div class="spec-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="spec-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3>Moisture Content</h3>
+                    <p>5-7% (optimal)</p>
+                </div>
+                <div class="spec-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="spec-icon">
+                        <i class="fas fa-compress-alt"></i>
+                    </div>
+                    <h3>Compaction</h3>
+                    <p>98% Modified Proctor</p>
+                </div>
+                <div class="spec-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="spec-icon">
+                        <i class="fas fa-weight-hanging"></i>
+                    </div>
+                    <h3>Bulk Density</h3>
+                    <p>2100-2300 kg/m³</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Applications -->
+    <section class="applications-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">Applications</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Where our Wet Mix is commonly used</p>
+            </div>
+            <div class="applications-grid">
+                <div class="application-card" data-aos="fade-up">
+                    <div class="application-icon">
+                        <i class="fas fa-road"></i>
+                    </div>
+                    <h3>Road Base Construction</h3>
+                    <p>Primary material for road base and sub-base layers</p>
+                </div>
+                <div class="application-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="application-icon">
+                        <i class="fas fa-truck-loading"></i>
+                    </div>
+                    <h3>Parking Areas</h3>
+                    <p>Stable base for parking lots and commercial areas</p>
+                </div>
+                <div class="application-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="application-icon">
+                        <i class="fas fa-warehouse"></i>
+                    </div>
+                    <h3>Industrial Flooring</h3>
+                    <p>Base material for industrial floors and warehouses</p>
+                </div>
+                <div class="application-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="application-icon">
+                        <i class="fas fa-bridge"></i>
+                    </div>
+                    <h3>Infrastructure Projects</h3>
+                    <p>Foundation material for various infrastructure works</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality Assurance -->
+    <section class="quality-section">
+        <div class="container">
+            <div class="quality-content">
+                <div class="quality-text" data-aos="fade-right">
+                    <h2>Quality Assurance</h2>
+                    <p>At TMM INFRA, we maintain strict quality control measures throughout our production process. Our Wet Mix undergoes rigorous testing to ensure it meets industry standards and specifications.</p>
+                    <ul class="quality-list">
+                        <li><i class="fas fa-certificate"></i> Consistent grading and sizing</li>
+                        <li><i class="fas fa-certificate"></i> Optimal moisture content for maximum compaction</li>
+                        <li><i class="fas fa-certificate"></i> Tested for strength and durability</li>
+                        <li><i class="fas fa-certificate"></i> Free from harmful impurities</li>
+                    </ul>
+                </div>
+                <div class="quality-image" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Quality Testing">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact-product" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">Get a Quote</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Contact us for pricing and availability of our Wet Mix</p>
+            </div>
+            <div class="contact-grid">
+                <div class="product-info" data-aos="fade-right">
+                    <div class="info-content">
+                        <h3>Wet Mix Information</h3>
+                        <p>Our wet mix is available for various construction applications. Contact us for bulk orders and special requirements.</p>
+                        <div class="info-item">
+                            <strong>Applications:</strong> Road Construction, Parking Areas, Industrial Flooring
+                        </div>
+                        <div class="info-item">
+                            <strong>Minimum Order:</strong> 5 Cubic Meters
+                        </div>
+                        <div class="info-item">
+                            <strong>Delivery:</strong> Same day delivery available
+                        </div>
+                        <div class="info-item">
+                            <strong>Packaging:</strong> Bulk delivery by truck
+                        </div>
+                    </div>
+                </div>
+                <div class="quote-form" data-aos="fade-left">
+                    <form id="contactForm" action="mailto:nani1113256j@gmail.com" method="POST" enctype="text/plain">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="tel" name="phone" placeholder="Phone Number" required>
+                            </div>
+                            <div class="form-group">
+                                <select name="projectType" required>
+                                    <option value="">Select Project Type</option>
+                                    <option value="Road Construction">Road Construction</option>
+                                    <option value="Parking Area">Parking Area</option>
+                                    <option value="Industrial Flooring">Industrial Flooring</option>
+                                    <option value="Infrastructure">Infrastructure</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="number" name="quantity" placeholder="Quantity (Cubic Meters)" required min="1">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="delivery_location" placeholder="Delivery Location" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Additional Requirements" rows="4"></textarea>
+                        </div>
+                        <input type="hidden" name="subject" value="Wet Mix Quote Request">
+                        <button type="submit" class="submit-btn">Get Quote</button>
+                    </form>
+                    <div id="form-message" class="form-message" style="display: none;"></div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About TMM INFRA</h3>
+                    <p>Leading manufacturer of construction materials with a commitment to quality and sustainability.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Products</h3>
+                    <ul class="footer-links">
+                        <li><a href="csand.html">C Sand</a></li>
+                        <li><a href="psand.html">P Sand</a></li>
+                        <li><a href="blocks.html">Concrete Blocks</a></li>
+                        <li><a href="jelly.html">Jelly Aggregates</a></li>
+                        <li><a href="wetmix.html">Wet Mix</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Construction Way, Bangalore, Karnataka 560001</p>
+                    <p><i class="fas fa-phone"></i> +91 6366 828282, +91 9620 407953</p>
+                    <p><i class="fas fa-envelope"></i> info@tmminfra.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 TMM INFRA. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons --> 
+    <div class="floating-buttons"> 
+        <div class="phone-container"> 
+            <a href="https://wa.me/916366828282" class="phone-number-display">6366828282</a> 
+            <a href="https://wa.me/916366828282" class="floating-btn whatsapp-btn"> 
+                <i class="fab fa-whatsapp"></i> 
+            </a> 
+        </div> 
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script src="product-script.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>

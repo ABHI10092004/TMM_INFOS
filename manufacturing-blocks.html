@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manufacturing Blocks - CementCraft</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="manufacturing-styles.css">
+    <link rel="stylesheet" href="floating-buttons.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.svg" alt="TMM Cement Logo">
+                <span>TMM Cement</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#products" class="nav-link">Products <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="psand.html">P Sand</a></li>
+                        <li><a href="csand.html">C Sand</a></li>
+                        <li><a href="blocks.html">Blocks</a></li>
+                        <li><a href="rmc.html">Ready Mix Concrete (RMC)</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#manufacturing" class="nav-link active">How We Make It <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="manufacturing-sand.html">Manufacturing Sand</a></li>
+                        <li><a href="manufacturing-blocks.html" class="active">Manufacturing Blocks</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#why-choose" class="nav-link">Why Choose Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#calculator" class="nav-link">Building Calculator</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Manufacturing Hero -->
+    <section class="manufacturing-hero">
+        <div class="manufacturing-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')"></div>
+        <div class="manufacturing-hero-content">
+            <div class="container">
+                <div class="breadcrumb" data-aos="fade-up">
+                    <a href="index.html">Home</a> / <a href="#manufacturing">How We Make It</a> / <span>Manufacturing Blocks</span>
+                </div>
+                <h1 class="manufacturing-title" data-aos="fade-up" data-aos-delay="100">Block Manufacturing Process</h1>
+                <p class="manufacturing-subtitle" data-aos="fade-up" data-aos-delay="200">Precision engineering and quality control for durable concrete blocks</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Overview -->
+    <section class="process-overview">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">Our Block Manufacturing Process</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">From raw materials to finished concrete blocks</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step" data-aos="fade-up">
+                    <div class="step-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3>Material Batching</h3>
+                    <p>Precise weighing and batching of cement, sand, aggregates, and water</p>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="100">
+                    <div class="step-icon">
+                        <i class="fas fa-blender"></i>
+                    </div>
+                    <h3>Mixing</h3>
+                    <p>Thorough mixing in high-capacity mixers for uniform consistency</p>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="200">
+                    <div class="step-icon">
+                        <i class="fas fa-compress-arrows-alt"></i>
+                    </div>
+                    <h3>Molding & Pressing</h3>
+                    <p>Hydraulic pressing in precision molds for uniform shape and density</p>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="300">
+                    <div class="step-icon">
+                        <i class="fas fa-thermometer-half"></i>
+                    </div>
+                    <h3>Steam Curing</h3>
+                    <p>Controlled steam curing for accelerated strength development</p>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="400">
+                    <div class="step-icon">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <h3>Quality Testing</h3>
+                    <p>Comprehensive testing for strength, dimensions, and quality parameters</p>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="500">
+                    <div class="step-icon">
+                        <i class="fas fa-pallet"></i>
+                    </div>
+                    <h3>Packaging & Storage</h3>
+                    <p>Careful packaging on pallets and storage in covered areas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology & Equipment -->
+    <section class="technology-section">
+        <div class="container">
+            <div class="technology-content">
+                <div class="technology-text" data-aos="fade-right">
+                    <h2>Advanced Manufacturing Technology</h2>
+                    <p>Our automated block manufacturing plant uses cutting-edge technology to ensure consistent quality and high production efficiency.</p>
+                    <div class="tech-features">
+                        <div class="tech-feature">
+                            <i class="fas fa-robot"></i>
+                            <span>Fully automated production line</span>
+                        </div>
+                        <div class="tech-feature">
+                            <i class="fas fa-weight"></i>
+                            <span>Precision weighing systems</span>
+                        </div>
+                        <div class="tech-feature">
+                            <i class="fas fa-compress"></i>
+                            <span>High-pressure hydraulic pressing</span>
+                        </div>
+                        <div class="tech-feature">
+                            <i class="fas fa-temperature-high"></i>
+                            <span>Controlled steam curing chambers</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="technology-image" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Block Manufacturing Technology">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality Standards -->
+    <section class="quality-standards">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">Quality Standards</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Meeting international standards for concrete blocks</p>
+            </div>
+            <div class="standards-grid">
+                <div class="standard-card" data-aos="zoom-in">
+                    <div class="standard-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>IS 2185:2005</h3>
+                    <p>Complies with Indian Standard for concrete masonry units</p>
+                </div>
+                <div class="standard-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="standard-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>ASTM C90</h3>
+                    <p>Meets American standard for loadbearing concrete masonry units</p>
+                </div>
+                <div class="standard-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="standard-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Quality Assurance</h3>
+                    <p>Rigorous quality control at every stage of production</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Block Types Manufactured -->
+    <section class="products-made">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">Block Types We Manufacture</h2>
+            </div>
+            <div class="products-grid">
+                <div class="product-item" data-aos="fade-up">
+                    <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Solid Blocks">
+                    <h3>Solid Blocks</h3>
+                    <p>High-strength solid blocks for load-bearing applications</p>
+                    <a href="blocks.html" class="product-link">View Details</a>
+                </div>
+                <div class="product-item" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Hollow Blocks">
+                    <h3>Hollow Blocks</h3>
+                    <p>Lightweight hollow blocks for partition walls</p>
+                    <a href="blocks.html" class="product-link">View Details</a>
+                </div>
+                <div class="product-item" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Aerated Blocks">
+                    <h3>Aerated Blocks</h3>
+                    <p>Lightweight aerated blocks with excellent insulation</p>
+                    <a href="blocks.html" class="product-link">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Production Capacity -->
+    <section class="production-capacity">
+        <div class="container">
+            <div class="capacity-content">
+                <div class="capacity-text" data-aos="fade-right">
+                    <h2>Production Capacity</h2>
+                    <p>Our state-of-the-art facility has the capacity to meet large-scale construction demands while maintaining consistent quality.</p>
+                    <div class="capacity-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">5000+</div>
+                            <div class="stat-label">Blocks per Day</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Production Schedule</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">99%</div>
+                            <div class="stat-label">Quality Rate</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="capacity-image" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Production Facility">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-industry"></i>
+                        <span>CementCraft</span>
+                    </div>
+                    <p>Your trusted partner in premium concrete solutions. Building dreams with quality materials and exceptional service.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="psand.html">P Sand</a></li>
+                        <li><a href="csand.html">C Sand</a></li>
+                        <li><a href="blocks.html">Concrete Blocks</a></li>
+                        <li><a href="rmc.html">Ready Mix Concrete</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="manufacturing-sand.html">Manufacturing Sand</a></li>
+                        <li><a href="manufacturing-blocks.html">Manufacturing Blocks</a></li>
+                        <li><a href="index.html#calculator">Building Calculator</a></li>
+                        <li><a href="index.html#contact">Technical Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@cementcraft.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Construction Avenue</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CementCraft. All rights reserved. | Designed with ❤️ for quality construction</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-buttons">
+        <div class="phone-container">
+            <a href="tel:6366828282" class="phone-number-display">6366828282</a>
+            <a href="tel:6366828282" class="floating-btn phone-btn">
+                <i class="fas fa-phone"></i>
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="product-script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<svg width="200" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black house with brick pattern -->
+  <g transform="translate(80, 10)">
+    <!-- House shape -->
+    <path d="M0 50 L25 25 L50 50 L50 80 L0 80 Z" fill="#2c3e50"/>
+    
+    <!-- Brick pattern for black house -->
+    <g fill="white" opacity="0.8">
+      <!-- Row 1 -->
+      <rect x="2" y="52" width="6" height="3"/>
+      <rect x="10" y="52" width="6" height="3"/>
+      <rect x="18" y="52" width="6" height="3"/>
+      <rect x="26" y="52" width="6" height="3"/>
+      <rect x="34" y="52" width="6" height="3"/>
+      <rect x="42" y="52" width="6" height="3"/>
+      
+      <!-- Row 2 -->
+      <rect x="5" y="56" width="6" height="3"/>
+      <rect x="13" y="56" width="6" height="3"/>
+      <rect x="21" y="56" width="6" height="3"/>
+      <rect x="29" y="56" width="6" height="3"/>
+      <rect x="37" y="56" width="6" height="3"/>
+      
+      <!-- Row 3 -->
+      <rect x="2" y="60" width="6" height="3"/>
+      <rect x="10" y="60" width="6" height="3"/>
+      <rect x="18" y="60" width="6" height="3"/>
+      <rect x="26" y="60" width="6" height="3"/>
+      <rect x="34" y="60" width="6" height="3"/>
+      <rect x="42" y="60" width="6" height="3"/>
+      
+      <!-- Row 4 -->
+      <rect x="5" y="64" width="6" height="3"/>
+      <rect x="13" y="64" width="6" height="3"/>
+      <rect x="21" y="64" width="6" height="3"/>
+      <rect x="29" y="64" width="6" height="3"/>
+      <rect x="37" y="64" width="6" height="3"/>
+      
+      <!-- Row 5 -->
+      <rect x="2" y="68" width="6" height="3"/>
+      <rect x="10" y="68" width="6" height="3"/>
+      <rect x="18" y="68" width="6" height="3"/>
+      <rect x="26" y="68" width="6" height="3"/>
+      <rect x="34" y="68" width="6" height="3"/>
+      <rect x="42" y="68" width="6" height="3"/>
+      
+      <!-- Row 6 -->
+      <rect x="5" y="72" width="6" height="3"/>
+      <rect x="13" y="72" width="6" height="3"/>
+      <rect x="21" y="72" width="6" height="3"/>
+      <rect x="29" y="72" width="6" height="3"/>
+      <rect x="37" y="72" width="6" height="3"/>
+      
+      <!-- Row 7 -->
+      <rect x="2" y="76" width="6" height="3"/>
+      <rect x="10" y="76" width="6" height="3"/>
+      <rect x="18" y="76" width="6" height="3"/>
+      <rect x="26" y="76" width="6" height="3"/>
+      <rect x="34" y="76" width="6" height="3"/>
+      <rect x="42" y="76" width="6" height="3"/>
+    </g>
+    
+    <!-- White window -->
+    <rect x="20" y="62" width="10" height="10" fill="white"/>
+  </g>
+  
+  <!-- Green house with brick pattern -->
+  <g transform="translate(120, 10)">
+    <!-- House shape -->
+    <path d="M0 50 L25 25 L50 50 L50 80 L0 80 Z" fill="#8bc34a"/>
+    
+    <!-- Brick pattern for green house -->
+    <g fill="white" opacity="0.6">
+      <!-- Row 1 -->
+      <rect x="2" y="52" width="6" height="3"/>
+      <rect x="10" y="52" width="6" height="3"/>
+      <rect x="18" y="52" width="6" height="3"/>
+      <rect x="26" y="52" width="6" height="3"/>
+      <rect x="34" y="52" width="6" height="3"/>
+      <rect x="42" y="52" width="6" height="3"/>
+      
+      <!-- Row 2 -->
+      <rect x="5" y="56" width="6" height="3"/>
+      <rect x="13" y="56" width="6" height="3"/>
+      <rect x="21" y="56" width="6" height="3"/>
+      <rect x="29" y="56" width="6" height="3"/>
+      <rect x="37" y="56" width="6" height="3"/>
+      
+      <!-- Row 3 -->
+      <rect x="2" y="60" width="6" height="3"/>
+      <rect x="10" y="60" width="6" height="3"/>
+      <rect x="18" y="60" width="6" height="3"/>
+      <rect x="26" y="60" width="6" height="3"/>
+      <rect x="34" y="60" width="6" height="3"/>
+      <rect x="42" y="60" width="6" height="3"/>
+      
+      <!-- Row 4 -->
+      <rect x="5" y="64" width="6" height="3"/>
+      <rect x="13" y="64" width="6" height="3"/>
+      <rect x="21" y="64" width="6" height="3"/>
+      <rect x="29" y="64" width="6" height="3"/>
+      <rect x="37" y="64" width="6" height="3"/>
+      
+      <!-- Row 5 -->
+      <rect x="2" y="68" width="6" height="3"/>
+      <rect x="10" y="68" width="6" height="3"/>
+      <rect x="18" y="68" width="6" height="3"/>
+      <rect x="26" y="68" width="6" height="3"/>
+      <rect x="34" y="68" width="6" height="3"/>
+      <rect x="42" y="68" width="6" height="3"/>
+      
+      <!-- Row 6 -->
+      <rect x="5" y="72" width="6" height="3"/>
+      <rect x="13" y="72" width="6" height="3"/>
+      <rect x="21" y="72" width="6" height="3"/>
+      <rect x="29" y="72" width="6" height="3"/>
+      <rect x="37" y="72" width="6" height="3"/>
+      
+      <!-- Row 7 -->
+      <rect x="2" y="76" width="6" height="3"/>
+      <rect x="10" y="76" width="6" height="3"/>
+      <rect x="18" y="76" width="6" height="3"/>
+      <rect x="26" y="76" width="6" height="3"/>
+      <rect x="34" y="76" width="6" height="3"/>
+      <rect x="42" y="76" width="6" height="3"/>
+    </g>
+    
+    <!-- Orange window -->
+    <rect x="20" y="62" width="10" height="10" fill="#ff6b35"/>
+  </g>
+  
+  <!-- Orange curved swoosh -->
+  <path d="M10 70 Q50 50 90 70 Q130 90 170 70" stroke="#ff6b35" stroke-width="4" fill="none"/>
+  
+  <!-- Black curved swoosh -->
+  <path d="M15 75 Q55 55 95 75 Q135 95 175 75" stroke="#2c3e50" stroke-width="4" fill="none"/>
+  
+  <!-- TMM Text -->
+  <g transform="translate(130, 85)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">T</text>
+    <text x="12" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ff6b35">M</text>
+    <text x="24" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ff6b35">M</text>
+  </g>
+  
+  <!-- Tagline -->
+  <text x="40" y="105" font-family="Arial, sans-serif" font-size="10" fill="#8bc34a" font-style="italic">A Place For Quality Construction Materials</text>
+</svg>

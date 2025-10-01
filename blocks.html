@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Con-Crate Blocks - TMM INFRA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="product-styles.css">
+    <link rel="stylesheet" href="floating-buttons.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.svg" alt="TMM Cement Logo">
+                <span>TMM INFRA</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#products" class="nav-link active">Products <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="psand.html">P Sand</a></li>
+                        <li><a href="csand.html">C Sand</a></li>
+                        <li><a href="blocks.html" class="active">Blocks</a></li>
+                        <li><a href="rmc.html">Ready Mix Concrete (RMC)</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#manufacturing" class="nav-link">How We Make It <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="manufacturing-sand.html">Manufacturing Sand</a></li>
+                        <li><a href="manufacturing-blocks.html">Manufacturing Blocks</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#why-choose" class="nav-link">Why Choose Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#calculator" class="nav-link">Building Calculator</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Product Hero Section -->
+    <section class="product-hero">
+        <div class="product-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')"></div>
+        <div class="product-hero-content">
+            <div class="container">
+                <div class="breadcrumb" data-aos="fade-up">
+                    <a href="index.html">Home</a> / <a href="#products">Products</a> / <span>Concrete Blocks</span>
+                </div>
+                <h1 class="product-title" data-aos="fade-up" data-aos-delay="100">High-Strength Con-Crate Blocks</h1>
+                <p class="product-subtitle" data-aos="fade-up" data-aos-delay="200">Durable concrete blocks manufactured by TMM INFRA for all construction needs</p>
+                <div class="product-hero-buttons" data-aos="fade-up" data-aos-delay="300">
+                    <button class="cta-button" onclick="scrollToSection('specifications')">View Specifications</button>
+                    <button class="cta-button-outline" onclick="scrollToSection('contact-product')">Get Quote</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Overview -->
+    <section class="product-overview">
+        <div class="container">
+            <div class="overview-grid">
+                <div class="overview-content" data-aos="fade-right">
+                    <h2>About Concrete Blocks</h2>
+                    <p>Our concrete blocks are manufactured using premium quality materials and advanced technology to ensure superior strength, durability, and consistency. Perfect for residential and commercial construction projects.</p>
+                    <div class="key-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>High compressive strength</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Uniform dimensions</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Weather resistant</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Thermal insulation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview-image" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Concrete Blocks">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <i class="fas fa-play-circle"></i>
+                            <span>View Process</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Block Types -->
+    <section class="block-types-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">Block Types Available</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Choose from our range of concrete blocks</p>
+            </div>
+            <div class="block-types-grid">
+                <div class="block-type-card" data-aos="zoom-in">
+                    <div class="block-type-image">
+                        <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Solid Blocks">
+                    </div>
+                    <div class="block-type-info">
+                        <h3>Solid Blocks</h3>
+                        <p>Standard solid concrete blocks for load-bearing walls</p>
+                        <div class="block-specs">
+                            <span>Size: 400x200x200mm</span>
+                            <span>Weight: 35-40 kg</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-type-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="block-type-image">
+                        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Hollow Blocks">
+                    </div>
+                    <div class="block-type-info">
+                        <h3>Hollow Blocks</h3>
+                        <p>Lightweight hollow blocks for partition walls</p>
+                        <div class="block-specs">
+                            <span>Size: 400x200x200mm</span>
+                            <span>Weight: 17-20 kg</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-type-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="block-type-image">
+                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Aerated Blocks">
+                    </div>
+                    <div class="block-type-info">
+                        <h3>Aerated Blocks</h3>
+                        <p>Lightweight aerated blocks with excellent insulation</p>
+                        <div class="block-specs">
+                            <span>Size: 600x200x200mm</span>
+                            <span>Weight: 12-15 kg</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specifications -->
+    <section id="specifications" class="specifications-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">Technical Specifications</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Detailed specifications for our concrete blocks</p>
+            </div>
+            <div class="specs-grid">
+                <div class="spec-card" data-aos="zoom-in">
+                    <div class="spec-icon">
+                        <i class="fas fa-weight-hanging"></i>
+                    </div>
+                    <h3>Compressive Strength</h3>
+                    <p>4-7 N/mm²</p>
+                </div>
+                <div class="spec-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="spec-icon">
+                        <i class="fas fa-thermometer-half"></i>
+                    </div>
+                    <h3>Thermal Conductivity</h3>
+                    <p>0.7-1.28 W/mK</p>
+                </div>
+                <div class="spec-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="spec-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3>Water Absorption</h3>
+                    <p>Less than 10%</p>
+                </div>
+                <div class="spec-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="spec-icon">
+                        <i class="fas fa-ruler"></i>
+                    </div>
+                    <h3>Dimensional Tolerance</h3>
+                    <p>±3mm</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Applications -->
+    <section class="applications-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">Applications</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Where our concrete blocks are commonly used</p>
+            </div>
+            <div class="applications-grid">
+                <div class="application-card" data-aos="fade-up">
+                    <div class="application-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Residential Construction</h3>
+                    <p>Load-bearing and non-load-bearing walls for homes</p>
+                </div>
+                <div class="application-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="application-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Commercial Buildings</h3>
+                    <p>Office buildings, shopping centers, and warehouses</p>
+                </div>
+                <div class="application-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="application-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>Industrial Structures</h3>
+                    <p>Factories, workshops, and industrial facilities</p>
+                </div>
+                <div class="application-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="application-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Boundary Walls</h3>
+                    <p>Compound walls and security barriers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages -->
+    <section class="advantages-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">Advantages of Our Concrete Blocks</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Why choose our concrete blocks for your construction needs</p>
+            </div>
+            <div class="advantages-grid">
+                <div class="advantage-item" data-aos="fade-right">
+                    <div class="advantage-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="advantage-content">
+                        <h3>Fast Construction</h3>
+                        <p>Larger size blocks enable faster construction compared to traditional bricks</p>
+                    </div>
+                </div>
+                <div class="advantage-item" data-aos="fade-right" data-aos-delay="100">
+                    <div class="advantage-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <div class="advantage-content">
+                        <h3>Cost Effective</h3>
+                        <p>Reduces construction time and labor costs significantly</p>
+                    </div>
+                </div>
+                <div class="advantage-item" data-aos="fade-right" data-aos-delay="200">
+                    <div class="advantage-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <div class="advantage-content">
+                        <h3>Eco-Friendly</h3>
+                        <p>Made from recycled materials and environmentally sustainable</p>
+                    </div>
+                </div>
+                <div class="advantage-item" data-aos="fade-right" data-aos-delay="300">
+                    <div class="advantage-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <div class="advantage-content">
+                        <h3>Fire Resistant</h3>
+                        <p>Excellent fire resistance properties for enhanced safety</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Product Section -->
+    <section id="contact-product" class="contact-product-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">Get a Quote for Concrete Blocks</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Contact us for pricing and availability</p>
+            </div>
+            <div class="contact-product-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Product Information</h3>
+                    <div class="product-info-grid">
+                        <div class="info-item">
+                            <strong>Product:</strong> Concrete Blocks (Various Types)
+                        </div>
+                        <div class="info-item">
+                            <strong>Minimum Order:</strong> 100 Pieces
+                        </div>
+                        <div class="info-item">
+                            <strong>Delivery:</strong> 2-3 days delivery time
+                        </div>
+                        <div class="info-item">
+                            <strong>Packaging:</strong> Palletized delivery
+                        </div>
+                    </div>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>sales@cementcraft.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="quote-form" data-aos="fade-left">
+                    <form id="contactForm" action="mailto:nani1113256j@gmail.com" method="POST" enctype="text/plain">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="tel" name="phone" placeholder="Phone Number" required>
+                            </div>
+                            <div class="form-group">
+                                <select name="block_type" required>
+                                    <option value="">Select Block Type</option>
+                                    <option value="solid">Solid Blocks</option>
+                                    <option value="hollow">Hollow Blocks</option>
+                                    <option value="aerated">Aerated Blocks</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="number" name="quantity" placeholder="Quantity (Pieces)" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="delivery_location" placeholder="Delivery Location" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Additional Requirements" rows="4"></textarea>
+                        </div>
+                        <input type="hidden" name="subject" value="Concrete Blocks Quote Request">
+                        <button type="submit" class="submit-btn">Get Quote</button>
+                    </form>
+                    <div id="form-message" class="form-message" style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Products -->
+    <section class="related-products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">Related Products</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">You might also be interested in</p>
+            </div>
+            <div class="related-products-grid">
+                <div class="related-product-card" data-aos="zoom-in">
+                    <div class="related-product-image">
+                        <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="C Sand">
+                    </div>
+                    <div class="related-product-info">
+                        <h3>C Sand</h3>
+                        <p>Used in block manufacturing</p>
+                        <a href="csand.html" class="related-product-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="related-product-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="related-product-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="P Sand">
+                    </div>
+                    <div class="related-product-info">
+                        <h3>P Sand</h3>
+                        <p>For block joint mortar</p>
+                        <a href="psand.html" class="related-product-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="related-product-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="related-product-image">
+                        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="RMC">
+                    </div>
+                    <div class="related-product-info">
+                        <h3>Ready Mix Concrete</h3>
+                        <p>For foundation and beams</p>
+                        <a href="rmc.html" class="related-product-btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-industry"></i>
+                        <span>CementCraft</span>
+                    </div>
+                    <p>Your trusted partner in premium concrete solutions. Building dreams with quality materials and exceptional service.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="psand.html">P Sand</a></li>
+                        <li><a href="csand.html">C Sand</a></li>
+                        <li><a href="blocks.html">Concrete Blocks</a></li>
+                        <li><a href="rmc.html">Ready Mix Concrete</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="manufacturing-sand.html">Manufacturing Sand</a></li>
+                        <li><a href="manufacturing-blocks.html">Manufacturing Blocks</a></li>
+                        <li><a href="index.html#calculator">Building Calculator</a></li>
+                        <li><a href="index.html#contact">Technical Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@cementcraft.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Construction Avenue</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CementCraft. All rights reserved. | Designed with ❤️ for quality construction</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-buttons">
+        <div class="phone-container">
+            <a href="tel:6366828282" class="phone-number-display">6366828282</a>
+            <a href="tel:6366828282" class="floating-btn phone-btn">
+                <i class="fas fa-phone"></i>
+            </a>
+        </div>
+    </div>
+
+    <script src="form-handler.js"></script>
+    <script src="script.js"></script>
+    <script src="product-script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>

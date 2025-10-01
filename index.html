@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMM INFRA - Trusted Construction Materials & Infrastructure Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="floating-buttons.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.svg" alt="TMM Cement Logo">
+                <span>TMM INFRA</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#products" class="nav-link">Products <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="psand.html">P Sand</a></li>
+                        <li><a href="csand.html">C Sand</a></li>
+                        <li><a href="blocks.html">Blocks</a></li>
+                        <li><a href="rmc.html">Ready Mix Concrete (RMC)</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#manufacturing" class="nav-link">How We Make It <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="manufacturing-sand.html">Manufacturing Sand</a></li>
+                        <li><a href="manufacturing-blocks.html">Manufacturing Blocks</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#why-choose" class="nav-link">Why Choose Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#calculator" class="nav-link">Building Calculator</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#quality-policy" class="nav-link">Quality Policy</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Carousel -->
+    <section id="home" class="hero-carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide active">
+                <div class="slide-content">
+                    <h1 class="slide-title">Welcome to TMM INFRA</h1>
+                    <p class="slide-subtitle">Trusted Construction Materials & Infrastructure Services in Karnataka</p>
+                    <button class="cta-button">Explore Our Products</button>
+                </div>
+                <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')"></div>
+            </div>
+            <div class="carousel-slide">
+                <div class="slide-content">
+                    <h1 class="slide-title">M-Sand, Stones & Con-Crate Blocks</h1>
+                    <p class="slide-subtitle">High-Quality Building Materials with JCB & Earthmoving Services</p>
+                    <button class="cta-button">View Products</button>
+                </div>
+                <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')"></div>
+            </div>
+            <div class="carousel-slide">
+                <div class="slide-content">
+                    <h1 class="slide-title">We Don't Just Deliver Materials</h1>
+                    <p class="slide-subtitle">We Deliver Trust - On-Time Delivery, Competitive Pricing</p>
+                    <button class="cta-button">Contact Us Today</button>
+                </div>
+                <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')"></div>
+            </div>
+        </div>
+        <div class="carousel-controls">
+            <button class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <button class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="carousel-indicators">
+            <span class="indicator active" data-slide="0"></span>
+            <span class="indicator" data-slide="1"></span>
+            <span class="indicator" data-slide="2"></span>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Premium Products</h2>
+                <p class="section-subtitle">High-quality construction materials for all your building needs</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card" data-aos="fade-up">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="P Sand">
+                        <div class="product-overlay">
+                            <button class="product-btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>P Sand (Plastering Sand)</h3>
+                        <p>Fine quality sand perfect for plastering and finishing work</p>
+                    </div>
+                </div>
+                <div class="product-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="C Sand">
+                        <div class="product-overlay">
+                            <button class="product-btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>C Sand (Construction Sand)</h3>
+                        <p>Coarse sand ideal for concrete mixing and construction work</p>
+                    </div>
+                </div>
+                <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Blocks">
+                        <div class="product-overlay">
+                            <button class="product-btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Concrete Blocks</h3>
+                        <p>Durable and strong concrete blocks for all construction needs</p>
+                    </div>
+                </div>
+                <div class="product-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="RMC">
+                        <div class="product-overlay">
+                            <button class="product-btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Ready Mix Concrete (RMC)</h3>
+                        <p>Fresh, high-quality concrete delivered right to your site</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Core Services</h2>
+                <p class="section-subtitle">Complete construction materials and infrastructure solutions</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-right">
+                    <div class="service-icon">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                    <h3>M-Sand, Jelly & Building Stones</h3>
+                    <p>High-quality manufactured sand and natural stones for all construction needs</p>
+                </div>
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-cubes"></i>
+                    </div>
+                    <h3>High-Strength Con-Crate Blocks</h3>
+                    <p>Manufacturing of durable concrete blocks for residential and commercial projects</p>
+                </div>
+                <div class="service-card" data-aos="fade-left">
+                    <div class="service-icon">
+                        <i class="fas fa-truck-monster"></i>
+                    </div>
+                    <h3>JCB & Earthmoving Services</h3>
+                    <p>Professional earthmoving and excavation services for all civil work</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose" class="why-choose-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose TMM INFRA?</h2>
+                <p class="section-subtitle">We don't just deliver materials - we deliver trust</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="zoom-in">
+                    <div class="feature-number">01</div>
+                    <h3>Premium Quality</h3>
+                    <p>All our products meet international quality standards and undergo rigorous testing</p>
+                </div>
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="feature-number">02</div>
+                    <h3>Competitive Pricing</h3>
+                    <p>Best prices in the market without compromising on quality</p>
+                </div>
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="feature-number">03</div>
+                    <h3>Timely Delivery</h3>
+                    <p>On-time delivery guaranteed with our efficient logistics network</p>
+                </div>
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="feature-number">04</div>
+                    <h3>Expert Support</h3>
+                    <p>Technical guidance from our experienced team of professionals</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Building Calculator Section -->
+    <section id="calculator" class="calculator-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Construction Calculators</h2>
+                <p class="section-subtitle">Calculate materials for concrete, bricks, blocks, flooring, excavation, and steel requirements</p>
+            </div>
+            <div class="calculator-container">
+                <div class="calculator-form">
+                    <div class="form-group">
+                        <label for="calculator-type">Calculator Type</label>
+                        <select id="calculator-type">
+                            <option value="">Select Calculator Type</option>
+                            <option value="concrete">Concrete Calculator</option>
+                            <option value="bricks">Bricks Calculator</option>
+                            <option value="concrete-blocks">Concrete Blocks Calculator</option>
+                            <option value="flooring">Flooring Calculator</option>
+                            <option value="soil-excavation">Soil Excavation Calculator</option>
+                            <option value="steel">Steel Calculator</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="length">Length (ft)</label>
+                            <input type="number" id="length" placeholder="Enter length">
+                        </div>
+                        <div class="form-group">
+                            <label for="width">Width (ft)</label>
+                            <input type="number" id="width" placeholder="Enter width">
+                        </div>
+                        <div class="form-group">
+                            <label for="height">Height (ft)</label>
+                            <input type="number" id="height" placeholder="Enter height">
+                        </div>
+                    </div>
+                    <button class="calculate-btn" onclick="calculateMaterials()">Calculate Materials</button>
+                </div>
+                <div class="calculator-results">
+                    <h3>Calculation Results</h3>
+                    <div id="results-content">
+                        <p>Select a calculator type and enter dimensions to see material requirements</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Manufacturing Process Section -->
+    <section id="manufacturing" class="manufacturing-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How We Make It</h2>
+                <p class="section-subtitle">State-of-the-art manufacturing processes ensure superior quality</p>
+            </div>
+            <div class="manufacturing-grid">
+                <div class="manufacturing-card" data-aos="fade-right">
+                    <div class="manufacturing-image">
+                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Sand Manufacturing">
+                    </div>
+                    <div class="manufacturing-content">
+                        <h3>Manufacturing Sand</h3>
+                        <p>Our advanced crushing and screening technology produces high-quality manufactured sand that meets all construction standards. The process includes:</p>
+                        <ul>
+                            <li>Rock crushing and screening</li>
+                            <li>Washing and grading</li>
+                            <li>Quality testing and certification</li>
+                            <li>Proper storage and handling</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="manufacturing-card" data-aos="fade-left">
+                    <div class="manufacturing-content">
+                        <h3>Manufacturing Blocks</h3>
+                        <p>Our concrete blocks are manufactured using automated machinery and premium materials. Our process ensures:</p>
+                        <ul>
+                            <li>Precise mixing of cement, sand, and aggregates</li>
+                            <li>Hydraulic pressing for uniform density</li>
+                            <li>Steam curing for optimal strength</li>
+                            <li>Quality control at every stage</li>
+                        </ul>
+                    </div>
+                    <div class="manufacturing-image">
+                        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Block Manufacturing">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h2>About TMM INFRA (Sri Venu Gopala TMM Traders)</h2>
+                    <p>TMM INFRA is a trusted name in Karnataka for delivering high-quality construction materials and infrastructure services. With a strong presence in the region, we specialize in supplying M-sand, stones, con-crate blocks, and water for construction projects.</p>
+                    <p>We also offer professional JCB earthmoving services, ensuring reliable support for all types of civil and commercial work. Our goal is to be your one-stop solution for all building material needs, backed by on-time delivery, competitive pricing, and a commitment to customer satisfaction.</p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">20+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">5000+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Customer Satisfaction</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="About Us">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality Policy Section -->
+    <section id="quality-policy" class="quality-policy-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Quality Policy</h2>
+                <p class="section-subtitle">Commitment to Excellence in Every Project</p>
+            </div>
+            <div class="quality-policy-content" data-aos="fade-up">
+                <div class="policy-card">
+                    <div class="policy-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="policy-text">
+                        <h3>Quality Policy – TMM INFRA</h3>
+                        <p>At Sri Venu Gopala TMM Traders (TMM INFRA), we are committed to providing reliable, timely, and high-quality construction materials and services to our customers.</p>
+                        <p>We strive for continual improvement in our processes and customer satisfaction, while meeting all applicable requirements.</p>
+                        <p><strong>Our goal is to build long-term trust by delivering quality with integrity, every time.</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-subtitle">Get in touch with us for all your construction material needs</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Address</h3>
+                            <p>123 Construction Avenue<br>Building Materials District<br>City, State 12345</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+1 (555) 123-4567<br>+1 (555) 987-6543</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>nani1113256j@gmail.com<br>info@tmmcement.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Working Hours</h3>
+                            <p>Mon - Fri: 8:00 AM - 6:00 PM<br>Sat: 8:00 AM - 4:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm" action="mailto:nani1113256j@gmail.com" method="POST" enctype="text/plain">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" placeholder="Your Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                    <div id="form-message" class="form-message" style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="logo.svg" alt="TMM INFRA Logo" style="height: 40px; margin-right: 10px;">
+                        <span>TMM INFRA</span>
+                    </div>
+                    <p>Sri Venu Gopala TMM Traders - Your trusted partner in construction materials and infrastructure services. We deliver trust with quality materials, on-time delivery, and competitive pricing.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="#psand">P Sand</a></li>
+                        <li><a href="#csand">C Sand</a></li>
+                        <li><a href="#blocks">Concrete Blocks</a></li>
+                        <li><a href="#rmc">Ready Mix Concrete</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#manufacturing-sand">Manufacturing Sand</a></li>
+                        <li><a href="#manufacturing-blocks">Manufacturing Blocks</a></li>
+                        <li><a href="#calculator">Building Calculator</a></li>
+                        <li><a href="#contact">Technical Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> nani1113256j@gmail.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Construction Avenue</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CementCraft. All rights reserved. | Designed with ❤️ for quality construction</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-buttons">
+        <div class="phone-container">
+            <a href="tel:6366828282" class="phone-number-display">6366828282</a>
+            <a href="tel:6366828282" class="floating-btn phone-btn">
+                <i class="fas fa-phone"></i>
+            </a>
+        </div>
+    </div>
+
+    <script src="form-handler.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>

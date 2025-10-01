@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jelly 20mm - TMM INFRA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="product-styles.css">
+    <link rel="stylesheet" href="floating-buttons.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.svg" alt="TMM Cement Logo">
+                <span>TMM INFRA</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#products" class="nav-link active">Products <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="psand.html">P Sand</a></li>
+                        <li><a href="csand.html">C Sand</a></li>
+                        <li><a href="blocks.html">Blocks</a></li>
+                        <li><a href="jelly-6mm.html">Jelly 6mm</a></li>
+                        <li><a href="jelly-12mm.html">Jelly 12mm</a></li>
+                        <li><a href="jelly-20mm.html" class="active">Jelly 20mm</a></li>
+                        <li><a href="jelly-40mm.html">Jelly 40mm</a></li>
+                        <li><a href="wetmix.html">Wet Mix</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#manufacturing" class="nav-link">How We Make It <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="manufacturing-sand.html">Manufacturing Sand</a></li>
+                        <li><a href="manufacturing-blocks.html">Manufacturing Blocks</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#why-choose" class="nav-link">Why Choose Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#calculator" class="nav-link">Building Calculator</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Product Hero Section -->
+    <section class="product-hero">
+        <div class="product-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')"></div>
+        <div class="product-hero-content">
+            <div class="container">
+                <div class="breadcrumb" data-aos="fade-up">
+                    <a href="index.html">Home</a> / <a href="#products">Products</a> / <span>Jelly 20mm</span>
+                </div>
+                <h1 class="product-title" data-aos="fade-up" data-aos-delay="100">Jelly 20mm</h1>
+                <p class="product-subtitle" data-aos="fade-up" data-aos-delay="200">Standard-sized aggregate for robust concrete construction</p>
+                <div class="product-hero-buttons" data-aos="fade-up" data-aos-delay="300">
+                    <button class="cta-button" onclick="scrollToSection('specifications')">View Specifications</button>
+                    <button class="cta-button-outline" onclick="scrollToSection('contact-product')">Get Quote</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Overview -->
+    <section class="product-overview">
+        <div class="container">
+            <div class="overview-grid">
+                <div class="overview-content" data-aos="fade-right">
+                    <h2>About Jelly 20mm</h2>
+                    <p>Our 20mm Jelly is a standard-sized aggregate widely used in general construction for its excellent strength and durability. It's the perfect choice for most concrete applications requiring robust performance.</p>
+                    <div class="key-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Uniform 20mm size for optimal strength</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Ideal for standard concrete mixes</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Superior durability and load-bearing capacity</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Consistent quality for reliable performance</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview-image" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Jelly 20mm">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specifications Section -->
+    <section id="specifications" class="specifications-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Product Specifications</h2>
+                <p class="section-subtitle">Technical details and quality parameters</p>
+            </div>
+            <div class="specs-grid">
+                <div class="spec-card" data-aos="fade-up">
+                    <div class="spec-icon">
+                        <i class="fas fa-ruler"></i>
+                    </div>
+                    <h3>Size</h3>
+                    <p>Uniform 20mm aggregate size</p>
+                </div>
+                <div class="spec-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="spec-icon">
+                        <i class="fas fa-weight-hanging"></i>
+                    </div>
+                    <h3>Density</h3>
+                    <p>1550-1650 kg/m³</p>
+                </div>
+                <div class="spec-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="spec-icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3>Water Absorption</h3>
+                    <p>< 2%</p>
+                </div>
+                <div class="spec-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="spec-icon">
+                        <i class="fas fa-compress-arrows-alt"></i>
+                    </div>
+                    <h3>Crushing Value</h3>
+                    <p>< 25%</p>
+                </div>
+            </div>
+            <div class="specs-table-container" data-aos="fade-up">
+                <h3>Detailed Specifications</h3>
+                <div class="specs-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Property</th>
+                                <th>Value</th>
+                                <th>Standard</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Aggregate Size</td>
+                                <td>20mm</td>
+                                <td>IS 383</td>
+                            </tr>
+                            <tr>
+                                <td>Specific Gravity</td>
+                                <td>2.6-2.7</td>
+                                <td>IS 2386</td>
+                            </tr>
+                            <tr>
+                                <td>Water Absorption</td>
+                                <td>< 2%</td>
+                                <td>IS 2386</td>
+                            </tr>
+                            <tr>
+                                <td>Crushing Value</td>
+                                <td>< 25%</td>
+                                <td>IS 2386</td>
+                            </tr>
+                            <tr>
+                                <td>Impact Value</td>
+                                <td>< 25%</td>
+                                <td>IS 2386</td>
+                            </tr>
+                            <tr>
+                                <td>Flakiness Index</td>
+                                <td>< 25%</td>
+                                <td>IS 2386</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Applications Section -->
+    <section class="applications-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Applications</h2>
+                <p class="section-subtitle">Where to use our 20mm Jelly</p>
+            </div>
+            <div class="applications-grid">
+                <div class="application-card" data-aos="fade-up">
+                    <div class="application-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Commercial Construction</h3>
+                    <p>Ideal for commercial buildings, offices, and institutional structures.</p>
+                </div>
+                <div class="application-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="application-icon">
+                        <i class="fas fa-road"></i>
+                    </div>
+                    <h3>Heavy-Duty Pavements</h3>
+                    <p>Perfect for roads, highways, and heavy-traffic areas requiring durability.</p>
+                </div>
+                <div class="application-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="application-icon">
+                        <i class="fas fa-columns"></i>
+                    </div>
+                    <h3>Structural Concrete</h3>
+                    <p>Used in foundations, columns, beams, and load-bearing structures.</p>
+                </div>
+                <div class="application-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="application-icon">
+                        <i class="fas fa-bridge"></i>
+                    </div>
+                    <h3>Infrastructure Projects</h3>
+                    <p>Suitable for bridges, dams, and other critical infrastructure.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact-product" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Request a Quote</h2>
+                <p class="section-subtitle">Get in touch for pricing and availability</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Call Us</h3>
+                            <p>+91 6366828282</p>
+                            <p>+91 9620407953</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email Us</h3>
+                            <p>info@tmminfra.com</p>
+                            <p>sales@tmminfra.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Visit Us</h3>
+                            <p>Narsappa Circle, Sidedahalli main road near Sai baba mandira, thotadaguddadhalli, nagasandra, post, Karnataka 560073</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="product-quote-form">
+                        <input type="hidden" name="product" value="Jelly 20mm">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" placeholder="Your Phone" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="quantity" placeholder="Quantity Required (in tons or cubic meters)">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>TMM INFRA</h3>
+                    <p>Trusted Construction Materials & Infrastructure Services in Karnataka. We specialize in supplying high-quality building materials and providing reliable construction services.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#products">Products</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-products">
+                    <h3>Our Products</h3>
+                    <ul>
+                        <li><a href="psand.html">P Sand</a></li>
+                        <li><a href="csand.html">C Sand</a></li>
+                        <li><a href="blocks.html">Blocks</a></li>
+                        <li><a href="jelly-6mm.html">Jelly 6mm</a></li>
+                        <li><a href="jelly-12mm.html">Jelly 12mm</a></li>
+                        <li><a href="jelly-20mm.html">Jelly 20mm</a></li>
+                        <li><a href="jelly-40mm.html">Jelly 40mm</a></li>
+                        <li><a href="wetmix.html">Wet Mix</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-phone"></i> +91 6366828282</p>
+                    <p><i class="fas fa-phone"></i> +91 9620407953</p>
+                    <p><i class="fas fa-envelope"></i> info@tmminfra.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Narsappa Circle, Sidedahalli main road near Sai baba mandira, thotadaguddadhalli, nagasandra, post, Karnataka 560073</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TMM INFRA. All rights reserved. | Designed with ❤️ for quality construction</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-buttons">
+        <div class="phone-container">
+            <a href="https://wa.me/916366828282" class="phone-number-display">6366828282</a>
+            <a href="https://wa.me/916366828282" class="floating-btn whatsapp-btn">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+    </div>
+
+    <script src="form-handler.js"></script>
+    <script src="script.js"></script>
+    <script src="product-script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>

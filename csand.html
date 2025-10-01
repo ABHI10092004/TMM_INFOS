@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M-Sand (Construction Sand) - TMM INFRA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="product-styles.css">
+    <link rel="stylesheet" href="floating-buttons.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.svg" alt="TMM Cement Logo">
+                <span>TMM INFRA</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#products" class="nav-link active">Products <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="psand.html">P Sand</a></li>
+                        <li><a href="csand.html" class="active">C Sand</a></li>
+                        <li><a href="blocks.html">Blocks</a></li>
+                        <li><a href="jelly.html">Jelly Aggregates</a></li>
+                        <li><a href="wetmix.html">Wet Mix</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#manufacturing" class="nav-link">How We Make It <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="manufacturing-sand.html">Manufacturing Sand</a></li>
+                        <li><a href="manufacturing-blocks.html">Manufacturing Blocks</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#why-choose" class="nav-link">Why Choose Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#calculator" class="nav-link">Building Calculator</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Product Hero Section -->
+    <section class="product-hero">
+        <div class="product-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')"></div>
+        <div class="product-hero-content">
+            <div class="container">
+                <div class="breadcrumb" data-aos="fade-up">
+                    <a href="index.html">Home</a> / <a href="#products">Products</a> / <span>C Sand</span>
+                </div>
+                <h1 class="product-title" data-aos="fade-up" data-aos-delay="100">C Sand (Construction Sand)</h1>
+                <p class="product-subtitle" data-aos="fade-up" data-aos-delay="200">High-quality coarse sand ideal for concrete mixing and construction work</p>
+                <div class="product-hero-buttons" data-aos="fade-up" data-aos-delay="300">
+                    <button class="cta-button" onclick="scrollToSection('specifications')">View Specifications</button>
+                    <button class="cta-button-outline" onclick="scrollToSection('contact-product')">Get Quote</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Overview -->
+    <section class="product-overview">
+        <div class="container">
+            <div class="overview-grid">
+                <div class="overview-content" data-aos="fade-right">
+                    <h2>About C Sand</h2>
+                    <p>Our C Sand (Construction Sand) is premium quality coarse sand specifically processed for concrete mixing and heavy construction applications. It provides excellent strength and durability for all your structural needs.</p>
+                    <div class="key-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Optimal grain size for concrete strength</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>High compressive strength</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Excellent bonding properties</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Minimal impurities</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview-image" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="C Sand">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <i class="fas fa-play-circle"></i>
+                            <span>View Process</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specifications -->
+    <section id="specifications" class="specifications-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">Technical Specifications</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Detailed specifications for our premium C Sand</p>
+            </div>
+            <div class="specs-grid">
+                <div class="spec-card" data-aos="zoom-in">
+                    <div class="spec-icon">
+                        <i class="fas fa-ruler"></i>
+                    </div>
+                    <h3>Particle Size</h3>
+                    <p>0.5mm - 4.75mm</p>
+                </div>
+                <div class="spec-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="spec-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3>Moisture Content</h3>
+                    <p>Less than 6%</p>
+                </div>
+                <div class="spec-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="spec-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Silt Content</h3>
+                    <p>Less than 2%</p>
+                </div>
+                <div class="spec-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="spec-icon">
+                        <i class="fas fa-weight-hanging"></i>
+                    </div>
+                    <h3>Bulk Density</h3>
+                    <p>1650-1850 kg/m³</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Applications -->
+    <section class="applications-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">Applications</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Where our C Sand is commonly used</p>
+            </div>
+            <div class="applications-grid">
+                <div class="application-card" data-aos="fade-up">
+                    <div class="application-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>Concrete Mixing</h3>
+                    <p>Primary ingredient for high-strength concrete production</p>
+                </div>
+                <div class="application-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="application-icon">
+                        <i class="fas fa-road"></i>
+                    </div>
+                    <h3>Road Construction</h3>
+                    <p>Base material for road and pavement construction</p>
+                </div>
+                <div class="application-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="application-icon">
+                        <i class="fas fa-hammer"></i>
+                    </div>
+                    <h3>Foundation Work</h3>
+                    <p>Essential for strong and durable foundation construction</p>
+                </div>
+                <div class="application-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="application-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>Industrial Projects</h3>
+                    <p>Heavy-duty construction and industrial applications</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality Assurance -->
+    <section class="quality-section">
+        <div class="container">
+            <div class="quality-content">
+                <div class="quality-text" data-aos="fade-right">
+                    <h2>Quality Assurance</h2>
+                    <p>Our C Sand undergoes comprehensive quality testing to ensure it meets the highest standards for construction applications and provides optimal performance in concrete structures.</p>
+                    <div class="quality-points">
+                        <div class="quality-point">
+                            <i class="fas fa-microscope"></i>
+                            <div>
+                                <h4>Advanced Testing</h4>
+                                <p>Comprehensive testing for particle size distribution, strength, and durability</p>
+                            </div>
+                        </div>
+                        <div class="quality-point">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <h4>IS 383 Compliance</h4>
+                                <p>Meets Indian Standard specifications for coarse aggregates in concrete</p>
+                            </div>
+                        </div>
+                        <div class="quality-point">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <h4>Performance Guarantee</h4>
+                                <p>Guaranteed performance and consistency in all construction applications</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="quality-image" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Quality Testing">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Product Section -->
+    <section id="contact-product" class="contact-product-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">Get a Quote for C Sand</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Contact us for pricing and availability</p>
+            </div>
+            <div class="contact-product-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Product Information</h3>
+                    <div class="product-info-grid">
+                        <div class="info-item">
+                            <strong>Product:</strong> C Sand (Construction Sand)
+                        </div>
+                        <div class="info-item">
+                            <strong>Minimum Order:</strong> 2 Cubic Meters
+                        </div>
+                        <div class="info-item">
+                            <strong>Delivery:</strong> Same day delivery available
+                        </div>
+                        <div class="info-item">
+                            <strong>Packaging:</strong> Bulk delivery by truck
+                        </div>
+                    </div>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>sales@cementcraft.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="quote-form" data-aos="fade-left">
+                    <form id="contactForm" action="mailto:nani1113256j@gmail.com" method="POST" enctype="text/plain">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="tel" name="phone" placeholder="Phone Number" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="number" name="quantity" placeholder="Quantity (Cubic Meters)" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="delivery_location" placeholder="Delivery Location" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Additional Requirements" rows="4"></textarea>
+                        </div>
+                        <input type="hidden" name="subject" value="C Sand Quote Request">
+                        <button type="submit" class="submit-btn">Get Quote</button>
+                    </form>
+                    <div id="form-message" class="form-message" style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Products -->
+    <section class="related-products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">Related Products</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">You might also be interested in</p>
+            </div>
+            <div class="related-products-grid">
+                <div class="related-product-card" data-aos="zoom-in">
+                    <div class="related-product-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="P Sand">
+                    </div>
+                    <div class="related-product-info">
+                        <h3>P Sand</h3>
+                        <p>Fine sand for plastering work</p>
+                        <a href="psand.html" class="related-product-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="related-product-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="related-product-image">
+                        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="RMC">
+                    </div>
+                    <div class="related-product-info">
+                        <h3>Ready Mix Concrete</h3>
+                        <p>Fresh concrete with C Sand</p>
+                        <a href="rmc.html" class="related-product-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="related-product-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="related-product-image">
+                        <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Blocks">
+                    </div>
+                    <div class="related-product-info">
+                        <h3>Concrete Blocks</h3>
+                        <p>Made with premium C Sand</p>
+                        <a href="blocks.html" class="related-product-btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-industry"></i>
+                        <span>CementCraft</span>
+                    </div>
+                    <p>Your trusted partner in premium concrete solutions. Building dreams with quality materials and exceptional service.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="psand.html">P Sand</a></li>
+                        <li><a href="csand.html">C Sand</a></li>
+                        <li><a href="blocks.html">Concrete Blocks</a></li>
+                        <li><a href="rmc.html">Ready Mix Concrete</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="manufacturing-sand.html">Manufacturing Sand</a></li>
+                        <li><a href="manufacturing-blocks.html">Manufacturing Blocks</a></li>
+                        <li><a href="index.html#calculator">Building Calculator</a></li>
+                        <li><a href="index.html#contact">Technical Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@cementcraft.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Construction Avenue</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CementCraft. All rights reserved. | Designed with ❤️ for quality construction</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons --> 
+    <div class="floating-buttons"> 
+        <div class="phone-container"> 
+            <a href="https://wa.me/916366828282" class="phone-number-display">6366828282</a> 
+            <a href="https://wa.me/916366828282" class="floating-btn whatsapp-btn"> 
+                <i class="fab fa-whatsapp"></i> 
+            </a> 
+        </div> 
+    </div>
+
+    <script src="script.js"></script>
+    <script src="product-script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>

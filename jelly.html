@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jelly Aggregates - TMM INFRA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="product-styles.css">
+    <link rel="stylesheet" href="floating-buttons.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.svg" alt="TMM Cement Logo">
+                <span>TMM INFRA</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#products" class="nav-link active">Products <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="psand.html">P Sand</a></li>
+                        <li><a href="csand.html">C Sand</a></li>
+                        <li><a href="blocks.html">Blocks</a></li>
+                        <li><a href="jelly.html" class="active">Jelly Aggregates</a></li>
+                        <li><a href="wetmix.html">Wet Mix</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#manufacturing" class="nav-link">How We Make It <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="manufacturing-sand.html">Manufacturing Sand</a></li>
+                        <li><a href="manufacturing-blocks.html">Manufacturing Blocks</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#why-choose" class="nav-link">Why Choose Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#calculator" class="nav-link">Building Calculator</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Product Hero Section -->
+    <section class="product-hero">
+        <div class="product-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')"></div>
+        <div class="product-hero-content">
+            <div class="container">
+                <div class="breadcrumb" data-aos="fade-up">
+                    <a href="index.html">Home</a> / <a href="#products">Products</a> / <span>Jelly Aggregates</span>
+                </div>
+                <h1 class="product-title" data-aos="fade-up" data-aos-delay="100">Jelly Aggregates</h1>
+                <p class="product-subtitle" data-aos="fade-up" data-aos-delay="200">Premium quality aggregates in various sizes for all your construction needs</p>
+                <div class="product-hero-buttons" data-aos="fade-up" data-aos-delay="300">
+                    <button class="cta-button" onclick="scrollToSection('jelly-types')">View Jelly Types</button>
+                    <button class="cta-button-outline" onclick="scrollToSection('contact-product')">Get Quote</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Overview -->
+    <section class="product-overview">
+        <div class="container">
+            <div class="overview-grid">
+                <div class="overview-content" data-aos="fade-right">
+                    <h2>About Jelly Aggregates</h2>
+                    <p>Our Jelly Aggregates are premium quality crushed stone aggregates available in various sizes (6mm, 12mm, 20mm, and 40mm) to meet different construction requirements. These aggregates are essential components in concrete production, providing strength, stability, and durability to structures.</p>
+                    <div class="key-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Multiple size options for various applications</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>High compressive strength</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Excellent durability and load-bearing capacity</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Consistent quality and grading</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview-image" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Jelly Aggregates">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <i class="fas fa-play-circle"></i>
+                            <span>View Process</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Jelly Types Section -->
+    <section id="jelly-types" class="specifications-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">Jelly Types</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Explore our range of jelly aggregate sizes</p>
+            </div>
+            
+            <!-- 6mm Jelly -->
+            <div class="product-subsection" data-aos="fade-up">
+                <h3 class="subsection-title">Jelly 6mm</h3>
+                <div class="overview-grid">
+                    <div class="overview-content">
+                        <p>Our 6mm Jelly is the finest aggregate in our range, perfect for thin concrete sections, repair works, and finishing applications where a smooth surface is required.</p>
+                        <div class="specs-grid">
+                            <div class="spec-card" data-aos="zoom-in">
+                                <div class="spec-icon">
+                                    <i class="fas fa-ruler"></i>
+                                </div>
+                                <h3>Particle Size</h3>
+                                <p>5mm - 7mm</p>
+                            </div>
+                            <div class="spec-card" data-aos="zoom-in" data-aos-delay="100">
+                                <div class="spec-icon">
+                                    <i class="fas fa-weight-hanging"></i>
+                                </div>
+                                <h3>Bulk Density</h3>
+                                <p>1450-1550 kg/m³</p>
+                            </div>
+                        </div>
+                        <h4>Applications</h4>
+                        <ul class="applications-list">
+                            <li>Thin concrete overlays</li>
+                            <li>Repair and patching work</li>
+                            <li>Precast concrete products</li>
+                            <li>Decorative concrete finishes</li>
+                        </ul>
+                    </div>
+                    <div class="overview-image">
+                        <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="6mm Jelly">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 12mm Jelly -->
+            <div class="product-subsection" data-aos="fade-up">
+                <h3 class="subsection-title">Jelly 12mm</h3>
+                <div class="overview-grid">
+                    <div class="overview-content">
+                        <p>Our 12mm Jelly is a versatile medium-sized aggregate suitable for general concrete work, providing excellent workability and strength for various construction applications.</p>
+                        <div class="specs-grid">
+                            <div class="spec-card" data-aos="zoom-in">
+                                <div class="spec-icon">
+                                    <i class="fas fa-ruler"></i>
+                                </div>
+                                <h3>Particle Size</h3>
+                                <p>10mm - 14mm</p>
+                            </div>
+                            <div class="spec-card" data-aos="zoom-in" data-aos-delay="100">
+                                <div class="spec-icon">
+                                    <i class="fas fa-weight-hanging"></i>
+                                </div>
+                                <h3>Bulk Density</h3>
+                                <p>1500-1600 kg/m³</p>
+                            </div>
+                        </div>
+                        <h4>Applications</h4>
+                        <ul class="applications-list">
+                            <li>General concrete work</li>
+                            <li>Reinforced concrete structures</li>
+                            <li>Driveways and pathways</li>
+                            <li>Small to medium construction projects</li>
+                        </ul>
+                    </div>
+                    <div class="overview-image">
+                        <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="12mm Jelly">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 20mm Jelly -->
+            <div class="product-subsection" data-aos="fade-up">
+                <h3 class="subsection-title">Jelly 20mm</h3>
+                <div class="overview-grid">
+                    <div class="overview-content">
+                        <p>Our 20mm Jelly is a standard-sized aggregate widely used in general construction for its excellent strength and durability. It's the perfect choice for most concrete applications requiring robust performance.</p>
+                        <div class="specs-grid">
+                            <div class="spec-card" data-aos="zoom-in">
+                                <div class="spec-icon">
+                                    <i class="fas fa-ruler"></i>
+                                </div>
+                                <h3>Particle Size</h3>
+                                <p>16mm - 22mm</p>
+                            </div>
+                            <div class="spec-card" data-aos="zoom-in" data-aos-delay="100">
+                                <div class="spec-icon">
+                                    <i class="fas fa-weight-hanging"></i>
+                                </div>
+                                <h3>Bulk Density</h3>
+                                <p>1550-1650 kg/m³</p>
+                            </div>
+                        </div>
+                        <h4>Applications</h4>
+                        <ul class="applications-list">
+                            <li>Standard concrete mixes</li>
+                            <li>Structural concrete work</li>
+                            <li>Foundations and footings</li>
+                            <li>Commercial and residential construction</li>
+                        </ul>
+                    </div>
+                    <div class="overview-image">
+                        <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="20mm Jelly">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 40mm Jelly -->
+            <div class="product-subsection" data-aos="fade-up">
+                <h3 class="subsection-title">Jelly 40mm</h3>
+                <div class="overview-grid">
+                    <div class="overview-content">
+                        <p>Our 40mm Jelly is our largest aggregate size, ideal for heavy-duty construction projects, mass concrete works, and applications requiring maximum strength and stability.</p>
+                        <div class="specs-grid">
+                            <div class="spec-card" data-aos="zoom-in">
+                                <div class="spec-icon">
+                                    <i class="fas fa-ruler"></i>
+                                </div>
+                                <h3>Particle Size</h3>
+                                <p>35mm - 45mm</p>
+                            </div>
+                            <div class="spec-card" data-aos="zoom-in" data-aos-delay="100">
+                                <div class="spec-icon">
+                                    <i class="fas fa-weight-hanging"></i>
+                                </div>
+                                <h3>Bulk Density</h3>
+                                <p>1600-1700 kg/m³</p>
+                            </div>
+                        </div>
+                        <h4>Applications</h4>
+                        <ul class="applications-list">
+                            <li>Mass concrete works</li>
+                            <li>Heavy-duty foundations</li>
+                            <li>Road base construction</li>
+                            <li>Large infrastructure projects</li>
+                        </ul>
+                    </div>
+                    <div class="overview-image">
+                        <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="40mm Jelly">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality Assurance -->
+    <section class="quality-section">
+        <div class="container">
+            <div class="quality-content">
+                <div class="quality-text" data-aos="fade-right">
+                    <h2>Quality Assurance</h2>
+                    <p>At TMM INFRA, we maintain strict quality control measures throughout our production process. Our jelly aggregates undergo rigorous testing to ensure they meet industry standards and specifications.</p>
+                    <ul class="quality-list">
+                        <li><i class="fas fa-certificate"></i> Consistent grading and sizing</li>
+                        <li><i class="fas fa-certificate"></i> Tested for strength and durability</li>
+                        <li><i class="fas fa-certificate"></i> Low water absorption</li>
+                        <li><i class="fas fa-certificate"></i> Free from harmful impurities</li>
+                    </ul>
+                </div>
+                <div class="quality-image" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Quality Testing">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact-product" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">Get a Quote</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Contact us for pricing and availability of our jelly aggregates</p>
+            </div>
+            <div class="contact-grid">
+                <div class="product-info" data-aos="fade-right">
+                    <div class="info-content">
+                        <h3>Jelly Aggregates Information</h3>
+                        <p>Our jelly aggregates are available in various sizes to meet your construction needs. Contact us for bulk orders and special requirements.</p>
+                        <div class="info-item">
+                            <strong>Available Sizes:</strong> 6mm, 12mm, 20mm, 40mm
+                        </div>
+                        <div class="info-item">
+                            <strong>Minimum Order:</strong> 2 Cubic Meters
+                        </div>
+                        <div class="info-item">
+                            <strong>Delivery:</strong> Same day delivery available
+                        </div>
+                        <div class="info-item">
+                            <strong>Packaging:</strong> Bulk delivery by truck
+                        </div>
+                    </div>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>sales@cementcraft.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="quote-form" data-aos="fade-left">
+                    <form id="contactForm" action="mailto:nani1113256j@gmail.com" method="POST" enctype="text/plain">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="tel" name="phone" placeholder="Phone Number" required>
+                            </div>
+                            <div class="form-group">
+                                <select name="jellyType" required>
+                                    <option value="">Select Jelly Size</option>
+                                    <option value="6mm">Jelly 6mm</option>
+                                    <option value="12mm">Jelly 12mm</option>
+                                    <option value="20mm">Jelly 20mm</option>
+                                    <option value="40mm">Jelly 40mm</option>
+                                    <option value="Multiple">Multiple Sizes</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="number" name="quantity" placeholder="Quantity (Cubic Meters)" required min="1">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="delivery_location" placeholder="Delivery Location" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Additional Requirements" rows="4"></textarea>
+                        </div>
+                        <input type="hidden" name="subject" value="Jelly Aggregates Quote Request">
+                        <button type="submit" class="submit-btn">Get Quote</button>
+                    </form>
+                    <div id="form-message" class="form-message" style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About TMM INFRA</h3>
+                    <p>Leading manufacturer of construction materials with a commitment to quality and sustainability.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Products</h3>
+                    <ul class="footer-links">
+                        <li><a href="csand.html">C Sand</a></li>
+                        <li><a href="psand.html">P Sand</a></li>
+                        <li><a href="blocks.html">Concrete Blocks</a></li>
+                        <li><a href="jelly.html">Jelly Aggregates</a></li>
+                        <li><a href="wetmix.html">Wet Mix</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Construction Way, Bangalore, Karnataka 560001</p>
+                    <p><i class="fas fa-phone"></i> +91 6366 828282, +91 9620 407953</p>
+                    <p><i class="fas fa-envelope"></i> info@tmminfra.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 TMM INFRA. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons --> 
+    <div class="floating-buttons"> 
+        <div class="phone-container"> 
+            <a href="https://wa.me/916366828282" class="phone-number-display">6366828282</a> 
+            <a href="https://wa.me/916366828282" class="floating-btn whatsapp-btn"> 
+                <i class="fab fa-whatsapp"></i> 
+            </a> 
+        </div> 
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script src="product-script.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            offset: 100,
+            easing: 'ease-in-out',
+            once: true
+        });
+    </script>
+</body>
+</html>

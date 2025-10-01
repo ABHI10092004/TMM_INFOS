@@ -1,0 +1,187 @@
+/* Floating Action Buttons */
+.floating-buttons {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 1000;
+}
+
+.floating-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+    border: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.floating-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(37, 211, 102, 0.6);
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.phone-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.phone-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    text-decoration: none;
+}
+
+.phone-btn i {
+    font-size: 1.5rem;
+}
+
+.phone-number-display {
+    background: #25D366;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1rem;
+    white-space: nowrap;
+    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone-number-display:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(37, 211, 102, 0.6);
+    color: white;
+    text-decoration: none;
+}
+
+/* Animation for buttons */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+.floating-btn {
+    animation: float 3s ease-in-out infinite;
+}
+
+.phone-btn {
+    animation-delay: 0.5s;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .floating-buttons {
+        bottom: 20px;
+        right: 20px;
+        gap: 12px;
+    }
+
+
+
+    .phone-btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .phone-btn i {
+        font-size: 1.2rem;
+    }
+
+    .phone-number-display {
+        padding: 12px 18px;
+        font-size: 0.9rem;
+    }
+
+    .phone-container {
+        gap: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .floating-buttons {
+        bottom: 15px;
+        right: 15px;
+        gap: 10px;
+    }
+
+
+
+    .phone-btn {
+        width: 45px;
+        height: 45px;
+    }
+
+    .phone-btn i {
+        font-size: 1.1rem;
+    }
+
+    .phone-number-display {
+        padding: 10px 15px;
+        font-size: 0.8rem;
+    }
+
+    .phone-container {
+        gap: 6px;
+    }
+}
+
+/* Pulse effect for WhatsApp button */
+.whatsapp-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #25D366;
+    opacity: 0.7;
+    transform: scale(1);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.7;
+    }
+    70% {
+        transform: scale(1.3);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+/* Ensure buttons stay above other elements */
+.floating-buttons * {
+    position: relative;
+    z-index: 1001;
+}
