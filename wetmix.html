@@ -60,7 +60,7 @@
 
     <!-- Product Hero Section -->
     <section class="product-hero">
-        <div class="product-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')"></div>
+        <div class="product-hero-bg" style="background-image: url('images/wetmixhead.jpg')"></div>
         <div class="product-hero-content">
             <div class="container">
                 <div class="breadcrumb" data-aos="fade-up">
@@ -103,7 +103,7 @@
                     </div>
                 </div>
                 <div class="overview-image" data-aos="fade-left">
-                    <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Wet Mix">
+                    <img src="images/wetmix.jpg" alt="Wet Mix">
                     <div class="image-overlay">
                         <div class="overlay-content">
                             <i class="fas fa-play-circle"></i>
@@ -295,7 +295,7 @@
                 <div class="footer-section">
                     <h3>About TMM INFRA</h3>
                     <p>Leading manufacturer of construction materials with a commitment to quality and sustainability.</p>
-                    <div class="social-icons">
+                    <div class="social-links">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
@@ -336,10 +336,12 @@
 
     <!-- Floating WhatsApp Button -->
     <div class="floating-buttons">
-        <a href="https://wa.me/916366828282" class="floating-btn whatsapp-btn" aria-label="Chat on WhatsApp">
-            <i class="fab fa-whatsapp"></i>
-            <div class="phone-number-display">+91 6366 828282</div>
-        </a>
+        <div class="phone-container">
+            <a href="https://wa.me/916366828282" class="phone-number-display">6366828282</a>
+            <a href="https://wa.me/916366828282" style="border-radius: 50%;" class="floating-btn whatsapp-btn">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
     </div>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -348,11 +350,6 @@
     <script>
         AOS.init({
             duration: 1000,
-            once: true
-        });
-    </script>
-</body>
-</html>: 1000,
             once: true
         });
     </script>
